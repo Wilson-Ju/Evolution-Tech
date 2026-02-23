@@ -1,6 +1,6 @@
 # Turoriel MARKDOWN
 
-`**Ceci est ma toute première applicatioin du markdown**`
+`Ceci est ma toute première applicatioin du markdown`
 
 Pour écrire deux paragraphes, mettre **un espace** entre les *2 paragraphes*
 
