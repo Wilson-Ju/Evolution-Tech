@@ -13,3 +13,5 @@
 - Pour controller les informations essentielles d'un certain nombre de commit: `git log --oneline -n m`
 - Pour controller les informations essentielles d'un certain nombre de commits concernant un fichier en particulier (index.html) : `git log --oneline -n m -p index.html`
 - Différence entre le fichier commité et le fichier modifié : `git diff`
+
+## Revenir en arrière
