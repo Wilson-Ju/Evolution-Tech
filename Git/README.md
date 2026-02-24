@@ -21,8 +21,17 @@
 - Pour revenir dans l'état de base, faire un ``` git checkout master ```
 - La commande ```revert``` permet de defaire ce qui a été fait à un commit en particulier : ```git revert e32bb29``` défait ce qui a été fait à ce commit; Pour défaire le revert, faire un revert avec la clé du revert précédent
 ---
-La commande Reset
+**La commande Reset**
 - ```--hard``` modifie l'historique et retourne tout le code à l'état du commit utilisé dans le reset (supprime les modifications) : ```git reset HEAD^ --hard```
 - ```--soft``` reviens en arrière, sans modifier le fichier et **add .** tous les fichiers
 - ```--mixed``` reviens en arrière sans faire le **add .**
 - pour revenir de ```n``` niveau de commit, mettre **n fois** ```^``` devant le ```HEAD``` : ```git reset HEAD^^ --soft```
+
+# UNGIT
+
+## Installation
+
+1. Installer ```node.js```
+2. dans le terminal à partir du repertoire du projet, lancer ```npm install -g ungit```
+3. Ensuite à partir du terminal, lancer la commande ```ungit```
+4. Si une erreur apparait dans le terminal, lancer la commande ```set UNGIT_DISABLE_WATCH=true``` puis relancer ```ungit```
