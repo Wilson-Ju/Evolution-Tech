@@ -19,7 +19,13 @@
 - Pour revoir l'état précédent du fichier index.html, faire d'abord un : **git log --oneline index.html**
 - Pour voir en spectateur l'état d'un commit à un moment donnée précédent, faire un : ``` git checkout (clé ssh1 du commit ex : e32bb29) ```
 - Pour revenir dans l'état de base, faire un ``` git checkout master ```
-- La commande ```revert``` permet de defaire ce qui a été fait à un commit en particulier : ```git revert e32bb29``` défait ce qui a été fait à ce commit; Pour défaire le revert, faire un revert avec la clé du revert précédent
+- La commande ```revert``` permet de defaire ce qui a été fait à un commit en particulier : ```git revert e32bb29``` défait ce qui a été fait à ce commit; Pour défaire le revert, faire un revert avec la clé du revert précédent.
+
+## Les branches
+
+- Creation des branches : ```git branch (nom de la branche)``` ex : ```git branch design```
+- Pour passer à une autre branche : ```git checkout design```
+
 ---
 **La commande Reset**
 - ```--hard``` modifie l'historique et retourne tout le code à l'état du commit utilisé dans le reset (supprime les modifications) : ```git reset HEAD^ --hard```
