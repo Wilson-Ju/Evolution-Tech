@@ -60,3 +60,5 @@ Support de mermaid : Un outil permettant de faire des diagrammes en utilisant du
 [2]: https://github.github.com/gfm/
 [3]: https://stackedit.io/app#
 [4]: https://mermaid.js.org/
+
+/view_video.php?viewkey=68dd50986b745
